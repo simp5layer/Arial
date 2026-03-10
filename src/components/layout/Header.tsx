@@ -49,12 +49,6 @@ const Header: React.FC = () => {
       </div>
       
       <div className="flex items-center gap-4">
-        <span className="text-sm text-white/80 hidden sm:block">Powered by</span>
-        <img 
-          src={desertTechLogo} 
-          alt="Desert Technologies" 
-          className="h-12 object-contain" 
-        />
         
         {/* User Menu */}
         <DropdownMenu>
